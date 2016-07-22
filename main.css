@@ -1,0 +1,15 @@
+/**************************************
+form
+**************************************/
+body {
+
+	background-color: lightgray;
+}
+form {
+	margin: auto 0 auto 10%;
+
+}
+
+#btnWrapper {
+	text-align: center;
+}

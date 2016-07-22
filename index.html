@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banking Form</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<fieldset>
+	<legend style="text-align: center;">Bank Form</legend>
+	<form action="" method="" accept-charset="utf-8">
+		First name:<br/>
+		<input type="text" name="FirstName"/><br/><br/>
+		Middle initial:<br/>
+		<input type="text" name="MiddleInitial"/><br/><br/>
+		Last name:<br/>
+		<input type="text" name="LastName"/><br/><br/>
+		Applicant Address:<br/>
+		<input type="text" name="ApplicantAddress"/><br/><br/>
+		Applicant Occupations:<br/>
+		<input type="text" name="ApplicantOccupation"/><br/><br/>
+		Applicant Employer:<br/>
+		<input type="text" name="ApplicantEmployer"/><br/><br/>
+		Employer Address:<br/>
+		<input type="text" name="EmployerAddress"/><br/><br/>
+		<select>
+  			<option value="Commercial">Commercial</option>
+ 			 <option value="RealEstate">Real estate</option>
+ 			 <option value="Personal">Personal</option>
+ 			 <option value="Mortgage">Mortgage</option>
+		</select>
+		<br/>
+		<br/><br/>
+		Requested amount of loan:
+		<br/>
+		<input type="number" min="0" max="10000" name="RequestedAmount"/>
+		<br/><br/>
+		Loan length:<br/>
+		<input type="radio" name="Years" value="5Years" checked/>5 Years <br/>
+		<input type="radio" name="Years" value="15Years" />15 Years <br/>
+		<input type="radio" name="Years" value="30Years" />30Years <br/><br/>
+		Special Conditions:<br/>
+		<input type="checkbox" name="Conditions" value="DownPayment">I have a down payment<br/>
+		<input type="checkbox" name="Conditions" value="OutOfState">Out-of-state resident<br/>
+		<input type="checkbox" name="Conditions" value="Married">Married<br/>
+		<input type="checkbox" name="Conditions" value="LoanCo-signed">Loan will be co-signed<br/><br/>
+		Additional Comments:<br/>
+		<textarea name="AdditionalComments" rows="4" cols="50"></textarea><br/><br/>
+		Applicant Email Address:<br/>
+		<input type="email" name="ApplicantEmail"/><br/><br/>
+		Applicant Phone number:<br/>
+		<input type="tel" name="ApplicantPhone"/><br/><br/>
+		Applicant Linkedin Profile:<br/>
+		<input type="url" name="ApplicantLinkedin"/><br/><br/>
+		</fieldset>
+		<br/>
+		<div id="btnWrapper">
+			<button type="submit" value="Submit Form" style="align: center;"/>Submit Form<br/>
+		</div>
+		<br/>
+	</form>
+</body>
+</html>
